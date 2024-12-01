@@ -10,7 +10,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/better-sqlite3": "^7.6.11",
@@ -23,6 +23,7 @@
 	},
 	"dependencies": {
 		"@tailwindcss/forms": "^0.5.9",
-		"better-sqlite3": "^11.1.2"
+		"better-sqlite3": "^11.1.2",
+		"sqlite3": "^5.1.7"
 	}
 }
